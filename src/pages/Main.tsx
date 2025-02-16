@@ -6,7 +6,7 @@ import Results from '../layouts/Results';
 
 const Main: React.FC = () => {
   return (
-    <div className="flex flex-col h-screen gap-5">
+    <div className="flex flex-col h-screen gap-5 p-10">
         <Navbar />
         <Toolbar />
         <Search/>
