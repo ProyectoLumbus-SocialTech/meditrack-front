@@ -25,11 +25,11 @@ const Auth: React.FC = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-cover bg-center bg-no-repeat w-[100%] h-[100%]" style={{ backgroundImage: "url('/background.png')" }}>
+    <div className="flex flex-col items-center justify-center bg-cover bg-center bg-no-repeat w-[100%] h-[100%]" style={{ backgroundImage: "url('/background.png')" }}>
       <img src="/meditrack_full_white.png" alt="Logo" className="logo-auth" style={{ height: "30px", marginBottom: "20px" }} />
 
-      <div className="flex flex-col items-center justify-center bg-white/10 backdrop-blur-sm p-8 rounded-3xl shadow-lg w-[350px] h-[auto]">
-        <h1 className="text-2xl text-white mb-6">Inicia Sesión</h1>
+      <div className="flex flex-col items-center justify-center bg-[#2a4f73]/40 backdrop-blur-sm p-8 rounded-3xl shadow-lg w-[350px] h-[auto]">
+      <h1 className="text-2xl text-white mb-6">Inicia Sesión</h1>
 
         <form onSubmit={handleSubmit} className="w-full flex flex-col gap-4">
           <div className="flex flex-col">
